@@ -1,0 +1,14 @@
+{
+  client: {
+    name: 'ghostunnel-client',
+    target_host: , // target host (e.g.: example.com). the port will be discovered from commn.server_port 
+    listen_port: 445, // listening port
+  },
+  server: {
+    name: 'ghostunnel-server',
+    target_url: , // target url to forward traffics to (e.g.: localhost:1234)
+  },
+  common: {
+    server_port: 4444,
+  },
+}
